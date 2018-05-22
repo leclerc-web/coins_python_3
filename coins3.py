@@ -206,7 +206,7 @@ else :
 							  Fore.GREEN + str(coin_percent) + Style.RESET_ALL]],
 							  headers=['TOTAL', 'TOTAL BTC', 'TOTAL euros', coin +' %'], tablefmt='orgtbl'))
 			print (Style.RESET_ALL)
-			print ( "\n\n" )
+			print ("\n\n") 
 
 		#------------------COURS COINS---------------------#
 
