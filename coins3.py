@@ -198,7 +198,7 @@ else :
 			print (Style.RESET_ALL)
 			print ("\n\n")
 
-		else : 
+		else :  
 
 			print (tabulate([[Fore.RED + str(nb_coins) + Style.RESET_ALL,
 							  Fore.RED + "{:.8f}".format(total_coin_btc) + Style.RESET_ALL,
@@ -206,7 +206,7 @@ else :
 							  Fore.GREEN + str(coin_percent) + Style.RESET_ALL]],
 							  headers=['TOTAL', 'TOTAL BTC', 'TOTAL euros', coin +' %'], tablefmt='orgtbl'))
 			print (Style.RESET_ALL)
-			print ("\n\n")
+			print ( "\n\n" )
 
 		#------------------COURS COINS---------------------#
 
